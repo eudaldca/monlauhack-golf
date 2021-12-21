@@ -53,11 +53,11 @@
                 </div>
                 <div class="mb-3">
                     <p for="message-text" class="col-form-label">Fecha Matriculación:</p>
-                    <p for="message-text" class="col-form-label">{{$student->enrollment_date}}</p>
+                    <p for="message-text" class="col-form-label">{{$student->enrollment_date->format("d-m-Y")}}</p>
                 </div>
                 <div class="mb-3">
                     <p for="message-text" class="col-form-label">Fecha de nacimiento:</p>
-                    <p for="message-text" class="col-form-label">{{$student->birth_date}}</p>
+                    <p for="message-text" class="col-form-label">{{$student->birth_date->format("d-m-Y")}}</p>
                 </div>
             </form>
         </div>

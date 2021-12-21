@@ -48,8 +48,8 @@
                 <td>{{$student->last_name}}</td>
                 <td>{{$student->course}}</td>
                 <td>{{$student->average_mark}}</td>
-                <td>{{$student->enrollment_date}}</td>
-                <td>{{$student->birth_date}}</td>
+                <td>{{$student->enrollment_date->format("d-m-Y")}}</td>
+                <td>{{$student->birth_date->format("d-m-Y")}}</td>
                 <td>
                     <a href="{{route("students.edit", $student->id)}}"><i class="bi bi-pencil-fill"></i></a>
                     <a href="{{route("students.show", $student->id)}}"><i class="bi bi-eye-fill"></i></a>
