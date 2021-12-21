@@ -38,7 +38,7 @@ class StudentController extends Controller
     public function edit($id)
     {
         $student = $this->studentsRepository->find($id);
-        return view('students.update', compact('student'));
+        return view('students.edit', compact('student'));
     }
 
     public function store(Request $request)
