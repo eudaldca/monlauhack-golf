@@ -15,3 +15,5 @@ yarn-error.log
 /.vscode
 /public/css/app.css
 /public/js/app.js
+/public/fonts/vendor/bootstrap-icons/bootstrap-icons.woff
+/public/fonts/vendor/bootstrap-icons/bootstrap-icons.woff2
